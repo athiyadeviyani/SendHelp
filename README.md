@@ -11,14 +11,14 @@ The website shows a map of the world with marks on countries that have recently 
 On reliefweb.int, we identified areas recently struck by disasters, and using **HTML, CSS and JavaScript**, developed a website indicating these places on a world map.
 
 ## Challenges We Ran Into
-"API what?" "Why are the buttons everywhere?" "WHO TOUCHED THIS?!" - most frequently said phrases throughout the project
+"API what?" "Why are the buttons everywhere?" "WHO TOUCHED THIS?!" - most frequently said phrases throughout the project. <br>
 Some of the team members were not familiar with web development, and these members initially found it difficult to program the website. Furthermore, API was completely new and it took a long time for us to grasp its concept. However, we were very thankful to receive lots of help from the dedicated TransferWise mentors. Through their help, we were able to overcome most of the difficulties and challenges faced.
 
 ## Accomplishments That We’re Proud Of
 Our website is a masterpiece, despite the fact that Celina and Muyao were new to HTML and CSS before, and the backend surprisingly also working despite Tia not knowing what a JSON was 24 hours ago.
 
 ## What We Learned:
-"Patience is virtue."
+"Patience is virtue." <br>
 We have learned a lot, both in web development and in the usage of API, which we previously found foreign. We also learned the importance of dividing a project so as to be more efficient when working together.
 
 ## What’s Next For ‘Send Help!’
