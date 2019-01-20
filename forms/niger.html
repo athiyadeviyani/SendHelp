@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  </head>
+<body>
+  
+<div class = "form-group" style="margin-top:5%; margin-left: 5%; margin-right: 5%">
+  
+  <h1>
+    Donation Form
+  </h1>
+  <br>
+<form id="frm1">
+  ID* <input class="form-control" type="text" name="id" id = "id" value="TransferWise ID"><br>
+  <button type="button" class="btn btn-info" onclick="getProfileID()">Get ID</button>
+  <p id="idbox"></p>  <br><br>
+  Currency** <input class="form-control" type="text" name="currency" id = "currency" value="GBP"><br><br>
+  Amount <input class="form-control" type="text" name="amount" id = "amount" value="5.00"><br><br>
+</form> 
+  
+<p>
+  * This is your unique profile number.
+  </p>
+  <p>
+  ** You can see a list of currencies <a href="https://transferwise.com/help/article/1569835/basic-information/supported-currencies">here</a>.
+  </p>
+<br>
+<button type="submit" class="btn btn-primary" onclick="submit()">Submit</button>
+  <br>
+  <br>
+  <p id="msg" style="font-size: 100%"></p>
+  <p id="confirmation" style="font-size: 150%">
+  </p>
+  </div>
+  
+
+<script src="niger.js"></script>
+
+
+
+</body>
+</html>
