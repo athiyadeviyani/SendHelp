@@ -1,0 +1,509 @@
+/* CSS files add styling rules to your content */
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+body {
+    margin: 0;
+    background-color: #5774b8;
+    font-family: "Dosis", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
+p {
+    color: #ffffff;
+    font-family: "Dosis", sans-serif;
+}
+
+a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+.titleFont {
+    padding: 0 0 0 0;
+    color: #FFFFFF;
+    font-size: 300%;
+    font-family: "Staatliches", sans-serif;
+    margin-top: -70px;
+    margin-bottom: -50px;
+}
+
+h3:hover {
+    transform: scale(1.1);
+    color: #FF0000;
+}
+
+h2:hover {
+    transform: scale(1.1);
+    color: #FF0000;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 180%;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 2.2em;
+    font-family: "Staatliches", sans-serif;
+}
+
+h1 {
+    font-family: Staatliches;
+    color: black;
+}
+
+body {
+    background-color: #84B3E5;
+    margin: 2em;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+
+/* Make the image responsive */
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes pulse_animation {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    60% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation-name: pulse_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#LegendRed{
+    position: absolute;
+    left: 70%;
+    bottom: 0%;
+    border-radius: 100%;
+}
+  
+
+#congoButton {
+    position: absolute;
+    left: 47%;
+    bottom: 41%;
+    border-radius: 100%;
+}
+
+#somaliaButton {
+    position: absolute;
+    left: 53.5%;
+    bottom: 45%;
+    border-radius: 100%;
+}
+
+#cameroonButton {
+    position: absolute;
+    left: 43.5%;
+    bottom: 47%;
+    border-radius: 100%;
+}
+
+#madagascarButton {
+    position: absolute;
+    left: 54%;
+    bottom: 30%;
+    border-radius: 100%;
+}
+
+#nigeriaButton {
+    position: absolute;
+    left: 42.5%;
+    bottom: 49.5%;
+    border-radius: 100%;
+}
+
+#nigerButton {
+    position: absolute;
+    left: 43%;
+    bottom: 55.5%;
+    border-radius: 100%;
+}
+
+#chadButton {
+    position: absolute;
+    left: 46%;
+    bottom: 54.5%;
+    border-radius: 100%;
+}
+
+#southSudanButton {
+    position: absolute;
+    left: 49%;
+    bottom: 49%;
+    border-radius: 100%;
+}
+
+#ethiopiaButton {
+    position: absolute;
+    left: 52%;
+    bottom: 49%;
+    border-radius: 100%;
+}
+
+#eastAfricaButton {
+    position: absolute;
+    left: 51.5%;
+    bottom: 43%;
+    border-radius: 100%;
+}
+
+#indonesiaButton {
+    position: absolute;
+    left: 74%;
+    bottom: 40%;
+    border-radius: 100%;
+}
+
+#thailandButton {
+    position: absolute;
+    left: 70.5%;
+    bottom: 54%;
+    border-radius: 100%;
+}
+
+#iraqButton {
+    position: absolute;
+    left: 52.5%;
+    bottom: 65.5%;
+    border-radius: 100%;
+}
+
+#paraguayButton {
+    position: absolute;
+    left: 22.5%;
+    bottom: 27%;
+    border-radius: 100%;
+}
+
+#questionButton {
+    position: absolute;
+    left: 85%;
+    bottom: 2%;
+    border-radius: 100%;
+}
+
+.cover {
+    position: absolute;
+    top: 95%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #84B3E5;
+    color: white;
+    font-size: 16px;
+    padding: 20px 61px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    float: left;
+}
+
+.container .btn {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #FF0000;
+    color: white;
+    font-size: 16px;
+    padding: 0.5em 0.5em;
+    border: 1.5px solid #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.container .btn:hover {
+    background-color: maroon;
+}
+
+.container .btn1 {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    padding: 0.5em 0.5em;
+    border: 1.5px solid #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.container .btn3 {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    padding: 1.5px 3px;
+    border: 1.5px solid #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.container .btn1:hover {
+    background-color: #c66000;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 20%;
+    margin-left: -135px;
+    width: 280px;
+    height: 190px;
+    background: linear-gradient(90deg, rgba(229, 229, 229, 1), rgba(229, 229, 229, 1));
+    color: black;
+    font-size: 14.5px;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    padding: 18px 18px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3.5px 3.5px 3.5px #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #000000 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+
+.close-button:hover {
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+
+.close-button1 {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+
+.close-button1:hover {
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+}
+
+.show-modal1 {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+    
+}
+
+.btn-hover {
+    width: 10%;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-hover2 {
+    width: 5%;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover2:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover2:focus {
+    outline: none;
+}
+
+
+.btn-hover2.color-4 {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
