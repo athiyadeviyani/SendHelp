@@ -1,5 +1,6 @@
 # SendHelp
 
+Devpost submission: https://devpost.com/software/send-help
 
 ## Inspiration
 Given the numerous natural disasters constantly occurring in the world, we decided to create a website where people can **easily donate to charities in order to support those who need it the most**, based on the recency and magnitude of the disaster, using their own currency. This is where TransferWise plays a part, as they allow **easy transfer of different currencies without much loss in exchange**.
